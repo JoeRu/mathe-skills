@@ -89,3 +89,15 @@ Schnittstelle (Ordner, Felder in `einstellungen.md`) erhöhen `STRUKTUR` in
 Dieser Ordner enthält keine Schülerdaten, keine Namen und nichts Schulspezifisches —
 er darf geteilt werden. Klarnamen, Noten und Förderhinweise bleiben im Schulordner der
 Lehrkraft (`grundlagen.md`, Abschnitt *Datenschutz*).
+
+## Veröffentlichung
+
+Öffentliches Repository: <https://github.com/JoeRu/mathe-skills>. Es enthält nur diesen
+Ordner; die Entwicklung läuft im privaten Repository, das zusätzlich Schulpaket und
+Schulordner-Template enthält. Nach einem Commit dort:
+
+    sh mathe-skills/veroeffentlichen.sh
+
+Das Skript prüft (`build.py --nur-pruefen`, liest die lokale `.sperrliste`), holt
+`public/main` und setzt den aktuellen Stand von `mathe-skills/` als einen Commit
+darauf — die Entwicklungshistorie bleibt privat.
