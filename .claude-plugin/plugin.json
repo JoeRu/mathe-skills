@@ -1,0 +1,17 @@
+{
+  "name": "mathe-skills",
+  "version": "1.2.2",
+  "description": "Skills für den Mathematikunterricht: Arbeitsblätter, Klassenarbeiten, Korrektur, Notenauswertung, Elternbriefe, Kopfrechnen, Buchaufgaben, bettermarks, Kursverwaltung, Wochenplanung und -abschluss mit Schulportal-Einträgen, pseudonymisierte Schülerdaten. Schule und Lehrkraft werden zur Laufzeit aus Schulpaket und einstellungen.md gelesen.",
+  "author": {
+    "name": "Johannes Rumpf"
+  },
+  "keywords": [
+    "mathematik",
+    "schule",
+    "unterricht",
+    "igs",
+    "hessen",
+    "bettermarks"
+  ],
+  "license": "MIT"
+}
